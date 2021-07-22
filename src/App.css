@@ -1,0 +1,50 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-spacing: 0;
+  border: 1px solid #ddd;
+}
+
+thead, tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+tbody {
+  /* display: block;
+  overflow-y: auto;
+  table-layout: fixed;
+  max-height: 200px; */
+}
+
+thead {
+  color: rgb(26, 115, 232);
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+
+td, th {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+  padding: 0.5rem;
+  text-align: left;
+}
+
+tr:nth-child(even){
+  background-color: rgba(0, 0, 0, 0.04);
+}
+
+svg.MuiSvgIcon-root {
+  font-size: 16px;
+  color: rgba(0,0,0,.87);
+  margin-left: 4px;
+  margin-right: 4px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flight-leg {
+  display: flex;
+  align-items: center;
+};

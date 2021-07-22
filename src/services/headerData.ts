@@ -1,0 +1,1 @@
+export const headerData = ['Alerts', 'Date', 'Flight', 'Aircraft', 'Aircraft Leg', 'ETD', 'STD', 'ATD', 'ETA', 'STA', 'ATA',  'IrropsCode'];
